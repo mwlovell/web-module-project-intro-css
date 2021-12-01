@@ -4,10 +4,16 @@
         margin:0;
         max-width:100%; /*this helps us when we get to responsive design. You can never be bigger than your parent. It helps with images that like to break outside of their wrappers*/
         border:1px solid grey;
+        font-family: 'Roboto Mono', sans-serif;
     }
     
     html{ /*with rems everything is based off of this font-size set on the HTML*/
         font-size:62.5%; /*this means that 1 rem === 10px */
+    }
+    
+    h1{
+        font-size: 4.5rem;
+        font-family:'Chelsea Market', sans-serif;
     }
 
 .button1{
@@ -15,6 +21,7 @@
     width:15%;
     text-align:center;
     padding:1% 3%;
+    margin-left: 12%;
     border-radius:10px; /*its okay to use px for something this small*/
     background-color:#FF764E;
     color:#fff;
@@ -26,6 +33,7 @@
     width:15%;
     text-align:center;
     padding:1% 3%;
+    margin-left: 12%;
     border-radius:10px; /*its okay to use px for something this small*/
     background-color:#5ED3EB;
     color:#fff;
@@ -37,6 +45,7 @@
     width:15%;
     text-align:center;
     padding:1% 3%;
+    margin-left: 12%;
     border-radius:10px; /*its okay to use px for something this small*/
     background-color:#FFCD69;
     color:#fff;
@@ -56,3 +65,19 @@
     background-color:#fff;
     color: #FFCD69;
 }
+.top div{
+    text-align: center;
+}
+.middle div{
+    
+    text-align: center;
+}
+.imgTop{
+    width:25%;
+}
+/* .topTxt{
+    width:25%;
+}
+.mid{
+    width: 20%;
+} */
