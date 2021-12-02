@@ -62,12 +62,14 @@ table {
     h1{
         font-size: 6rem;
         font-family:'Chelsea Market', cursive;
+        margin-bottom: 35px;
     }
     section{
         padding:4% 0;
         width: 90%;
         margin:0 auto;
     }
+    
     nav{
         padding:2% 0;
     }
@@ -106,7 +108,7 @@ table {
         width: 55%;
         margin-left: 5%;
         text-align: center;
-        line-height: 3;
+        line-height: 2;
         position:absolute;
         top:150px;
     }
@@ -132,4 +134,10 @@ table {
     }
     footer{
         background-color:#F9E7DC;
+    }
+    .text{
+        margin-top: 140px;
+    }
+    .p{
+        line-height: 7;
     }
