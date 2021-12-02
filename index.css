@@ -84,16 +84,37 @@ table {
     }
     .orange{
         background-color:#FF764E;
-        margin-left: 10%;
-    }
+        color:#fff;
+        transition:2s;
+        border:3px solid #FF764E;
+        margin-left: 18%;
+}
+.orange:hover{
+    background-color:#fff;
+    color: #FF764E;
+}
+    
     .blue{
         background-color:#5ED3EB ;
-        margin: 0 24%;
+        color:#fff;
+        margin: 0 15%;
+        transition:2s;
+        border:3px solid #5ed3eb;
+    }
+    .blue:hover{
+        background-color:#fff;
+        color:#5ED3EB;
     }
     .yellow{
         background-color: #FFCD69;
-        margin-right:10% ;
+        margin-right:13% ;
+        transition:2s;
+        border:3px solid #FFCD69;
 
+    }
+    .yellow:hover{
+        background-color:#fff;
+        color:#FFCD69;
     }
     .text, .image{
         display: inline-block;
