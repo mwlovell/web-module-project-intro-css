@@ -87,7 +87,7 @@ table {
         color:#fff;
         transition:2s;
         border:3px solid #FF764E;
-        margin-left: 18%;
+        margin-left: 16%;
 }
 .orange:hover{
     background-color:#fff;
@@ -97,7 +97,7 @@ table {
     .blue{
         background-color:#5ED3EB ;
         color:#fff;
-        margin: 0 15%;
+        margin: 0 16.5%;
         transition:2s;
         border:3px solid #5ed3eb;
     }
@@ -107,7 +107,7 @@ table {
     }
     .yellow{
         background-color: #FFCD69;
-        margin-right:13% ;
+        margin-right:19% ;
         transition:2s;
         border:3px solid #FFCD69;
 
